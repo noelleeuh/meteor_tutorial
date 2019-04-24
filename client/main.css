@@ -1,0 +1,262 @@
+/* body {
+  padding: 10px;
+  font-family: sans-serif;
+} */
+
+/* CSS declarations go here */
+
+.container ul,
+.new-task input { font-family: "Dawning of a New Day"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26.4px;}
+
+h1 { font-family: "Crafty Girls"; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26.4px; }
+
+.logo {
+    background-image: url('/pics/to_do_list.png');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.logo h1 {
+    margin-top: 250px;
+    font-size: 200%
+}
+
+.container,
+.log-buttons { font-family: "Coming Soon"; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26.4px; }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-buttons {
+    margin-top: 10px;
+    margin-left: 1020px;
+    color: WhiteSmoke;
+}
+
+.new-task {
+    margin-top: 5px;
+    margin-bottom: 0;
+    background: rgba(63, 37, 11, 0.7);
+    font-size: 20px
+}
+
+.new-task input {
+    color: WhiteSmoke;
+    margin-left: 10px;
+}
+
+body {
+    background-image: url('/pics/wood.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+#login-dropdown-list {
+     background-color: WhiteSmoke;
+     font-family: "Coming Soon";
+}
+
+#login-buttons .login-button, .accounts-dialog .login-button {
+    background: rgba(63, 37, 11, 0.7);
+}
+
+#login-buttons .login-button:hover, .accounts-dialog .login-button:hover {
+    background: rgba(63, 37, 11, 0.9);
+}
+
+
+#login-username-label-and-input,
+#login-password-label-and-input {
+    color: rgb(63, 37, 11);
+}
+
+#login-buttons .login-link-and-dropdown-list {
+
+}
+
+#login-sign-in-link{
+  visibility: hidden;
+}
+
+#login-sign-in-link:after{
+  visibility: visible;
+  content: 'SIGN IN';
+  text-decoration: none;
+}
+
+#login-sign-in-link{
+  visibility: hidden;
+}
+
+#login-sign-in-link:after{
+  visibility: visible;
+  content: 'SIGN IN';
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: sans-serif;
+  /* background-color: #315481;
+  background-image: linear-gradient(to bottom, #315481, #918e82 100%); */
+  background-attachment: fixed;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 14px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+
+header {
+  /* background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #e1e5f0 100%); */
+  background: rgba(210, 237, 244, 0.8);
+  padding: 20px 15px 15px 15px;
+  position: relative;
+  border-radius: 0.25em
+}
+
+
+
+#login-buttons {
+  display: block;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+form {
+  margin-top: 10px;
+  margin-bottom: -10px;
+  position: relative;
+}
+
+.new-task input {
+  box-sizing: border-box;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+
+.new-task input:focus{
+  outline: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    background: transparent
+}
+
+.delete {
+  float: right;
+  font-weight: bold;
+  background: none;
+  font-size: 1em;
+  border: none;
+  position: relative;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #888 solid 1px;
+}
+
+li .text {
+  margin-left: 10px;
+}
+
+li.checked {
+  /* color: #888; */
+  color: #3F250B;
+}
+
+li.checked .text {
+  text-decoration: line-through;
+}
+
+li.private {
+  /* background: #eee;
+  border-color: #ddd; */
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* button {
+    border-radius: 0.15em;
+} */
+
+.toggle-private {
+  color: #346392;
+  background: transparent;
+  border: solid 2px #346392;
+  font-weight: bold;
+}
+
+button:hover {
+  border-color: #264769;
+  color: #264769;
+}
+
+header .hide-completed {
+  float: right;
+}
+
+.toggle-private {
+  margin-left: 5px;
+}
+
+@media (max-width: 600px) {
+  li {
+    padding: 12px 15px;
+  }
+
+  .search {
+    width: 150px;
+    clear: both;
+  }
+
+  .new-task input {
+    padding-bottom: 5px;
+  }
+}
